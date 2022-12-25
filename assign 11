@@ -1,0 +1,5 @@
+class solution:
+ def singlenumber(self,nums):
+   for i in num:
+     if nums.count(i)==1:
+      return i
