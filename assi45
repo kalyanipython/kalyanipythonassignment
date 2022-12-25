@@ -1,0 +1,8 @@
+Import math
+Num=float(input(" enter the number "))
+Sqrt=math.pow(num,0.5)
+Print ("the sqrt of the given number ")
+If sqrt>=10:
+Print ("Hello")
+else: 
+Print("Hi")
