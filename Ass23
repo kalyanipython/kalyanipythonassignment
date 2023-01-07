@@ -1,0 +1,11 @@
+n=int(input("enter no. of elements"))
+l=list(map(int,input("enter elements").split()))
+u=[]
+d=[]
+for i in l:
+    if i not in u:
+        u.append(i)
+    else:
+        d.append(i)
+for i in u:
+    print(i,end=' ')
