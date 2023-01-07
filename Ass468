@@ -1,0 +1,6 @@
+mail=input("enter mail account")
+phno=input("enter phone number")
+if (mail.endswith("@gmail.com") or mail.endswith("@yahoo.com") or mail.endswith("@adc.aditya.ac.in")) and (len(phno)==10) and (phno.startswith("9") or phno.startswith("8") or phno.startswith("7") or phno.startswith("6")):
+      print("Registration successfully")
+else:
+        print("chech your details")
